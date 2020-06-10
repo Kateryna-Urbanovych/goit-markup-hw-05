@@ -33,7 +33,7 @@
 }
 
 body {
-  padding-top: 79px;
+  /* padding-top: 79px; это для фиксированого header*/
 
   background-color: var(--white-color);
   color: var(--title-text-color);
@@ -126,11 +126,13 @@ img {
 /* Page-header>Container + Main-nav */
 
 .page-header {
-  position: fixed;
+  /* Это для фиксированого header */
+  /* position: fixed;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
   z-index: 100;
+  width: 100%; */
 
   min-height: 79px;
 
